@@ -1,0 +1,72 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
+  <diagram name="Page-1" id="_IyKxSQDJpCLYj73edi4">
+    <mxGraphModel dx="1050" dy="652" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eyz_YXI333y2LuhTZ_e_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fP1DVokqoLfL8hhtHAe7-26" target="eyz_YXI333y2LuhTZ_e_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-26" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#222222&quot; face=&quot;Arial, Helvetica, sans-serif&quot;&gt;&lt;b&gt;Combining Models&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="553" y="424.5" width="262" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fP1DVokqoLfL8hhtHAe7-24" target="fP1DVokqoLfL8hhtHAe7-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-24" value="&lt;b&gt;Machine Learning models&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="215" y="297" width="260" height="384" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fP1DVokqoLfL8hhtHAe7-1" target="fP1DVokqoLfL8hhtHAe7-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-1" value="&lt;b&gt;Extract English Premier League data&lt;/b&gt;&lt;br&gt;football-data.com.uk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="250" y="176" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fP1DVokqoLfL8hhtHAe7-2" target="fP1DVokqoLfL8hhtHAe7-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-2" value="&lt;b&gt;Extract weather data&lt;/b&gt;&lt;br&gt;OpenWeatherMap.org (API)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="250" y="116" width="190" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="fP1DVokqoLfL8hhtHAe7-3" target="fP1DVokqoLfL8hhtHAe7-24" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="655" y="258" />
+              <mxPoint x="345" y="258" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-3" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Feature Engineering&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Combine weather features&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Get last match statistics&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Get m&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;omentum factor (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;statistics in the last 3 matches)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Get f&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;atigue factor (&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;elapsed time)&lt;br&gt;- Scale &amp;amp; Encode data&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="490" y="116" width="330" height="108" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-16" value="&lt;span&gt;Logistic Regression&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=13;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="250" y="320" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-18" value="&lt;span&gt;Random Forest&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="250" y="379" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-20" value="&lt;span&gt;XGBoost&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=13;fontColor=default;fillColor=default;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="250" y="498" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-21" value="&lt;span&gt;LightGBM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="250" y="558" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-22" value="&lt;span&gt;Convolutional Neural Network&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="250" y="618" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-29" value="Stacking" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="593" y="439.5" width="182" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fP1DVokqoLfL8hhtHAe7-30" value="Hard Voting" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="593" y="499.5" width="182" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eyz_YXI333y2LuhTZ_e_-1" value="&lt;span&gt;Support Vector Machines&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=13;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="250" y="438.5" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eyz_YXI333y2LuhTZ_e_-2" value="&lt;span style=&quot;color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;b&gt;Performance Review&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="553" y="611" width="261" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
